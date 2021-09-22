@@ -1,0 +1,155 @@
+body{
+    background-image: url("./image/website-background.jpg");
+    background-size: cover;
+}
+
+.box-style{
+    border: 5px solid red;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.flex-box{  
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.content1{
+    width: 300px;
+    padding-top: 15px; 
+}
+.content2{
+    height: 60px;
+    width: 340px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.content3{
+    height: 130px;
+    width: 350px;
+    line-height: 30px;
+}
+
+/* -------------------------------------------------------- */
+
+.flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.circle{
+    border: 10px solid gray;
+    background-color: rgb(50 146 100);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.center{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.circle-top{
+    margin-bottom: 15px;
+}
+
+.circle-middle{
+    margin: 15px auto;
+}
+
+.circle-bottom{
+    margin-top: 15px;
+}
+
+/* ----------------------------------------------------------- */
+.form{
+    border: 5px dashed red;
+    
+    width: 420px;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+}
+
+.child-spacing{
+    font-size: 20px;
+    padding: 10px 0px;
+    line-height: 24px;
+    color: red;
+}
+
+input{
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------------- */
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
+
+.flex-container > .main-menu{
+    border: 5px solid red;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+}
+
+
+
+.sub-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sub-menu > .item{
+    background-color: lightblue;
+    border: 5px solid green;
+    border-radius: 30px;
+    width: 315px;
+    height: 260px;
+    margin: 35px;
+    text-align: center;
+}
+
+.menu-heading{
+    font-size: 30px;
+    margin: 25px;
+    color: rgb(0, 0, 138);
+}
+
+ul > li{
+    font-size: 17px;
+    color: rgb(0, 0, 138);
+}
+
